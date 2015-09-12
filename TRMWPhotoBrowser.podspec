@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
 
   s.homepage = 'https://github.com/mwaterfall/MWPhotoBrowser'
   s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
-  s.social_media_url = 'https://twitter.com/mwaterfall'
 
   s.source = {
     :git => 'https://github.com/PodRepo/TRMWPhotoBrowser.git',
@@ -35,6 +34,9 @@ Pod::Spec.new do |s|
   # SDWebImage
   # 3.7.2 contains bugs downloading local files
   # https://github.com/rs/SDWebImage/issues/1109
+# cache and webimage
+
+  s.dependency 'TRCache', '~> 0.2'
   s.dependency 'TRWebImage', '~> 0.4'
 
 end
