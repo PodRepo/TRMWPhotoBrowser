@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MWPhotoBrowser_Example', :exclusive => true do
+  pod "TRMWPhotoBrowser", :path => "../"
+end
+
+target 'MWPhotoBrowser_Tests', :exclusive => true do
+  pod "TRMWPhotoBrowser", :path => "../"
+end
